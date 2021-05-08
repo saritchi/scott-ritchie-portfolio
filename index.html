@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Scott Ritchie</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/cfb7245dcc.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link href='./styles.css' rel='stylesheet'>
   </head>
@@ -21,18 +21,28 @@
     </div>
   </header>
 
-  <main class="px-3 d-flex align-items-center">
-      <div class='about-info'>
+  <main class="px-3 d-flex flex-wrap-reverse flex-shrink-1 align-items-center justify-content-center">
+      <div class='about-info flex-shrink-1'>
         <h2>Hello,</h2>
         <h1>I'm Scott Ritchie!</h1>
         <p class="lead">I am 26 year-old Web Developer from North Vancouver, BC.</p>
         <p class='lead'>I have recently graduated from Simon Fraser University with a BS. Computer Science, and am currently looking for opportunies in the work field.</p>
         <p class='lead'>I am currently working at Grouse Mountain as a Casual Dining Supervisor. I have worked at Grouse since 2012.</p>
-        <p class="lead">
-          <a href="#" class="btn btn-lg btn-secondary fw-bold border-info bg-info">View Resume</a>
+        <p class='lead'><b>Skills:</b> 
+          <i class="skills-icon fab fa-html5" data-bs-toggle="tooltip" data-bs-placement="bottom" title="HTML"></i>
+          <i class="skills-icon fab fa-css3-alt" data-bs-toggle="tooltip" data-bs-placement="bottom" title="CSS"></i>
+          <i class="skills-icon fab fa-js" data-bs-toggle="tooltip" data-bs-placement="bottom" title="JavScript"></i>
+          <i class="skills-icon fab fa-python" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Python"></i>
+          <i class="skills-icon fab fa-react" data-bs-toggle="tooltip" data-bs-placement="bottom" title="React.js"></i>
+          <i class="skills-icon fab fa-node" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Node.js"></i>
+          <img class='skills-icon' src='./sql-icon.png' alt='' data-bs-toggle="tooltip" data-bs-placement="bottom" title="SQL">
+          <img class='skills-icon' src='./c-icon-black.png' data-bs-toggle="tooltip" data-bs-placement="bottom" title="C/C++"> 
+        </p>
+        <p class="lead resume-btn">
+          <a href="#" class="btn btn-secondary fw-bold border-info bg-info">View Resume</a>
         </p>
       </div>
-      <div class='about-img justify-content-center'>
+      <div class='about-img flex-grow-1 justify-content-center'>
         <img src='./sr2.jpg' alt=''>
       </div>
   </main>

@@ -48,21 +48,30 @@ main {
 }
 
 .about-info {
-    width: 75%;
+    max-width: 75%;
+    min-width: 400px;
 }
 
 .about-img {
     text-align: center;
-    width: 25%;;
+    width: 25%;
 }
 
 .about-img img {
-    width: 90%;
+    width: 230px;
     border-radius: 5%;
 }
 
 .lead a {
     color: white;
+}
+
+.skills-icon {
+  width: 30px;
+  height: 30px;
+  font-size: 24px;
+  margin: 0px 10px;
+  text-align: center;
 }
 
 .btn-secondary,
@@ -72,14 +81,31 @@ main {
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
+@media only screen and (max-width: 762px) {
+  .about-info {
+    justify-content: center;
+  }
+  .about-img img {
+    width: 50%;
+    border-radius: 5%;
+    margin:1rem 0rem;
+    min-width: 200px;
+  }
+
+  .resume-btn{
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
+
 /* Social Media */
 
 .social-links {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     color: black;
     font-size: 24px;
-    padding-right: 2rem;
+    padding: 0rem 2rem;
 }
 /* Footer */
 footer {
