@@ -121,6 +121,10 @@ main {
   color: white;
 }
 
+.repo-link:hover {
+  color: #17A2B8
+}
+
 /* Footer */
 footer {
     color: rgba(0, 0, 0, 0.5);
