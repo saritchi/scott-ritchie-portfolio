@@ -12,6 +12,11 @@ This static website is a portfolio for [saritchi](https://github.com/saritchi). 
 * CSS
 * Bootstrap
 
+## To-Do
+
+* Make portfolio cards more interactive on hover
+* Add a 'Websites' section to portfolio
+
 ## Launch
 
 [scottritchie.me](https://scottritchie.me)
