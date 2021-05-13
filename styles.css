@@ -81,12 +81,17 @@ main {
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
-@media only screen and (max-width: 762px) {
+@media only screen and (max-width: 768px) {
   .about-info {
     justify-content: center;
   }
+
+  .about-img {
+    width: 100%;
+  }
+
   .about-img img {
-    width: 50%;
+    width: 25%;
     border-radius: 5%;
     margin:1rem 0rem;
     min-width: 200px;
@@ -95,6 +100,34 @@ main {
   .resume-btn{
     text-align: center;
     margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .cover-container {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .about-info {
+    min-width: 0px;
+  }
+
+  .about-info h1, .about-info h2 {
+    font-size: 1.4rem;
+  }
+
+  .about-info p {
+    font-size: 1rem;
+  }
+
+  p b {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .skills-icon {
+    margin: 0px 2px;
   }
 }
 
@@ -128,4 +161,13 @@ main {
 /* Footer */
 footer {
     color: rgba(0, 0, 0, 0.5);
+}
+
+/* Contact */
+
+@media only screen and (max-width: 480px) {
+  ul {
+    list-style-type: none;
+    padding: 0px;
+  }
 }
