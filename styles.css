@@ -58,7 +58,7 @@ main {
 }
 
 .about-img img {
-    width: 230px;
+    max-width: 230px;
     border-radius: 5%;
 }
 
@@ -79,6 +79,12 @@ main {
 .btn-secondary:focus {
   color: #ddd;
   text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+@media only screen and (min-width: 1600px) {
+  .about-img img{
+    min-width: 350px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
